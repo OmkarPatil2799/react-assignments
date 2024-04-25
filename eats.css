@@ -1,0 +1,97 @@
+.heading {
+  font-style: normal;
+  font-size: large;
+  font-family: sans-serif;
+  padding-top: 15px;
+}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  align-content: center;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.city {
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: #787878;
+  font-size: small;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+.container {
+  height: fit-content;
+  width: fit-content;
+  overflow: hidden;
+}
+
+.placeholder {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border: 1px white solid;
+  background-color: #e8e8e8;
+}
+.all-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  /* align-items: center; */
+  padding-top: 90px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  align-items: center;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  /* width: 100%; */
+  background-color: #f8f8f8;
+  margin: 10px;
+}
+td,
+th {
+  padding: 8px 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0%;
+}
+.rating {
+  font-size: 22px;
+}
+.star {
+  color: #e0e0e0;
+}
+.visit {
+  display: flex;
+  justify-content: flex-end;
+}

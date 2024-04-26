@@ -53,14 +53,15 @@
   align-content: center;
   border: 1px white solid;
   background-color: #e8e8e8;
+  border-radius: 10px;
 }
 .all-cards {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: center;
+  /* align-content: center; */
   /* align-items: center; */
-  padding-top: 90px;
+  /* padding-top: 90px; */
 }
 ul {
   list-style-type: none;
@@ -81,17 +82,14 @@ table {
 td,
 th {
   padding: 8px 12px;
-  text-align: center;
+  text-align: left;
   border: 1px solid #ccc;
   margin: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .rating {
   font-size: 22px;
 }
 .star {
   color: #e0e0e0;
-}
-.visit {
-  display: flex;
-  justify-content: flex-end;
 }
